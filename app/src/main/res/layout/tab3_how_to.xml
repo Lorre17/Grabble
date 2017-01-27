@@ -29,6 +29,21 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:text="How to play"
+            android:textStyle="normal|bold"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:textColor="#ffffff"
+            android:fontFamily="casual"
+            android:textAllCaps="false"
+            android:layout_below="@+id/section_label"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_below="@+id/textView"
             android:layout_marginTop="38dp"
             android:id="@+id/textView2"
@@ -41,20 +56,8 @@
             android:fontFamily="casual"
             android:verticalScrollbarPosition="defaultPosition" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/textView"
-            android:text="How to play"
-            android:textStyle="normal|bold"
-            android:gravity="center"
-            android:textSize="25sp"
-            android:textColor="#ffffff"
-            android:fontFamily="casual"
-            android:textAllCaps="false"
-            android:layout_below="@+id/section_label"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="20dp" />
+
+
     </RelativeLayout>
         android:id="@+id/form_layout"
     </ScrollView>
