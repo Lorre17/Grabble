@@ -10,7 +10,7 @@
     <string name="title_activity_kmlmap">Map</string>
     <string name="title_activity_tabbed_">Tabbed_Activity</string>
     <string name="section_format">Hello World from section: %1$d</string>
-    <string name="tab3_how_to">Grabble, inspired by the games Pokemon Go and Scrabble, allows users to make words by collecting letters which are randomly distributed around Edinburgh Central Area. \n\ \n\ Letters are collected by visiting their location. There is a different set of letters for each day of the week. \n\  \n\ Letters can only be collected once each day (i.e. having visited a location to collect a letter it is not possible to come back).\n\ \n\</string>
+    <string name="tab3_how_to">Grabble, inspired by the games Pokemon Go and Scrabble, allows users to make words by collecting letters which are randomly distributed around Edinburgh Central Area. \n\ \n\ Letters are collected by visiting their location. There is a different set of letters for each day of the week. \n\  \n\ Letters can only be collected once each day. (I.e. having visited a location to collect a letter it is not possible to move away from that location and then move back again to collect the letter a second time.)\n\ \n\ The object of the game is to make seven-letter words out of the letters which have been collected. Each letter has a point value associated with it and a score is assigned to a word by summing the scores of the letters in the word. The point value of each letter is given below: more commonly-occurring letters have lower values and less commonly- occurring letters have higher values.\n\ \n\</string>
     <string name="facebook_app_id">1301597739892346</string>
 
     <string name="cancel_login">Your login session has been cancelled</string>
