@@ -52,6 +52,7 @@ public class Tab1_Submit extends Fragment {
         submit_button = (Button) rootView.findViewById(R.id.submit_button);
         submit_field = (EditText) rootView.findViewById(R.id.textSubmit);
 
+
         // The InputStream opens the resourceId and sends it to the buffer
         InputStream is = this.getResources().openRawResource(R.raw.grabble);
         BufferedReader br = new BufferedReader(new InputStreamReader(is));
