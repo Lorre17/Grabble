@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/tab2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/blue">
+
+    <TextView
+        android:id="@+id/section_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/map_with_score"
+        android:id="@+id/score_imageview"
+        android:contentDescription=""
+        android:adjustViewBounds="true"
+        android:layout_below="@+id/section_label"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="61dp" />
+
+    <TextView
+        android:text="Last word submitted: 59"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/score_textview"
+        android:layout_below="@+id/score_imageview"
+        android:layout_toEndOf="@+id/section_label"
+        android:layout_marginTop="26dp"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:fontFamily="casual"
+        android:textStyle="normal|bold" />
+
+    <ImageButton
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/share_button"
+        android:layout_marginTop="44dp"
+        android:background="@color/blue"
+        android:id="@+id/facebookButton"
+        android:adjustViewBounds="false"
+        android:visibility="visible"
+        android:layout_width="wrap_content"
+        android:elevation="20dp"
+        android:baselineAlignBottom="false"
+        android:contextClickable="true"
+        android:cropToPadding="true"
+        android:layout_below="@+id/score_textview"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="482"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="38dp"
+        android:textColor="#ffffff"
+        android:id="@+id/totalScore_textView"
+        android:textStyle="normal|bold"
+        android:textSize="30dp"
+        android:fontFamily="casual"
+        android:layout_alignTop="@+id/score_imageview"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

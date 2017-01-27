@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Splash</string>
+
+    <string name="hello_world">Hello worldddd!</string>
+    <string name="action_settings">Settings</string>
+    <string name="forgot_password_label" />
+    <string name="sign_up_error_title" />
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="title_activity_maps_">Map</string>
+    <string name="title_activity_kmlmap">Map</string>
+    <string name="title_activity_tabbed_">Tabbed_Activity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="tab3_how_to">Grabble, inspired by the games Pokemon Go and Scrabble, allows users to make words by collecting letters which are randomly distributed around Edinburgh Central Area. \n\ \n\ Letters are collected by visiting their location. There is a different set of letters for each day of the week. \n\  \n\ Letters can only be collected once each day (i.e. having visited a location to collect a letter it is not possible to come back).\n\ \n\</string>
+    <string name="facebook_app_id">1301597739892346</string>
+
+    <string name="cancel_login">Your login session has been cancelled</string>
+    <string name="error_login">An error has occured when trying to log into Facebook</string>
+    <string name="title_activity_facebook__login">Facebook_Login</string>
+    <string name="shared_score"> </string>
+    <string name="shared_totalscore"> </string>
+    <string name="shared_hashmap"> </string>
+    <string name="word_in_dictionary">Well done! Your word has been submitted!</string>
+    <string name="word_not_in_dictionary">Oops! Not a valid word! Try again!</string>
+    <string name="not_enough_letters">You don\'t have all letters needed for this word!</string>
+    <string name="no_letters_no_dict">Not enough letters and word not in dictionary!</string>
+    <string name="alphabet_shared_preference"></string>
+</resources>
